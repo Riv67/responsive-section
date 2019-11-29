@@ -78,11 +78,12 @@ section p {
     width: 40%
   }
 
-.section-icon {
-  order: 3;
-}
+  .section-icon {
+    order: 3;
+  }
 
   .wrapper {
     flex-wrap: nowrap;
   }
+
 }
