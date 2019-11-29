@@ -33,7 +33,7 @@ section {
   margin: 0 auto;
   max-width: 45em;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .section-letter,
@@ -54,4 +54,35 @@ section h2 {
 
 section p {
   margin: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .section-letter,
+  .section-icon {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .section-letter,
+  .section-icon {
+    width: 40%
+  }
+
+.section-icon {
+  order: 3;
+}
+
+  .wrapper {
+    flex-wrap: nowrap;
+  }
 }
