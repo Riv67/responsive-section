@@ -46,3 +46,12 @@ section {
   width: 100%;
   display: block;
 }
+
+section h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+section p {
+  margin: 0;
+}
