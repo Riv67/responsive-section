@@ -35,3 +35,14 @@ section {
   align-items: center;
   justify-content: space-between;
 }
+
+.section-letter,
+.section-icon {
+  width: 50%;
+  text-align: center;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
