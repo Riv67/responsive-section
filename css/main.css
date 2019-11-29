@@ -4,7 +4,6 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-
 html {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -24,7 +23,7 @@ body {
 
 section {
   padding: 1.3rem;
-  background-color:#e5c30a
+  background-color: #e5c30a;
 }
 
 .wrapper {
@@ -36,7 +35,11 @@ section {
   justify-content: space-around;
 }
 
-.section-letter,
+.section-letter {
+  width: 50%;
+  text-align: center;
+}
+
 .section-icon {
   width: 50%;
   text-align: center;
@@ -75,7 +78,7 @@ section p {
 
   .section-letter,
   .section-icon {
-    width: 40%
+    width: 40%;
   }
 
   .section-icon {
@@ -98,19 +101,22 @@ section p {
   .wrapper {
     max-width: 100em;
     padding: 1rem;
-}
+  }
 
+  section {
+    padding: 0;
+  }
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 130%
+    font-size: 130%;
   }
 
   .section-letter,
   .section-icon {
     width: 16%;
   }
-  
+
 }
