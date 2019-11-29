@@ -17,3 +17,12 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+section {
+  padding: 1.3rem;
+  background-color:#e5c30a
+}
