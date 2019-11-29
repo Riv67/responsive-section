@@ -100,17 +100,12 @@ section p {
 
   .wrapper {
     max-width: 100em;
-    padding: 1rem;
-  }
-
-  section,
-  .wrapper {
     padding: 0;
   }
 
   .section-letter,
   .section-icon {
-    width: 16%;
+    width: 20%;
   }
 
 }
