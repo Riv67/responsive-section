@@ -103,9 +103,16 @@ section p {
     padding: 1rem;
   }
 
-  section {
+  section,
+  .wrapper {
     padding: 0;
   }
+
+  .section-letter,
+  .section-icon {
+    width: 16%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
