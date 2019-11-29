@@ -26,3 +26,12 @@ section {
   padding: 1.3rem;
   background-color:#e5c30a
 }
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 45em;
+  align-items: center;
+  justify-content: space-between;
+}
